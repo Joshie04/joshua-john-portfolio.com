@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Implementing Light/Dark Mode Switcher",
+        "date": "2024-08-07",
+        "content": "In this post, I explain how I implemented a light/dark mode switcher using JavaScript. The switcher allows users to toggle between light and dark themes, providing a personalized experience. I used CSS variables to define the color schemes and JavaScript to handle the toggle functionality.",
+        "author": "Joshua John Danes"
+    },
+    {
+        "title": "Dynamic Blog Section",
+        "date": "2024-08-07",
+        "content": "This post describes how I added a dynamic blog section to my portfolio. The blog posts are stored in a JSON file and loaded using JavaScript. The content is displayed dynamically, making it easy to update the blog without changing the HTML.",
+        "author": "Joshua John Danes"
+    }
+]
+

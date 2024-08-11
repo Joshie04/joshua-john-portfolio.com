@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lan
+g="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua John Danes</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+        
+        /* Header */
+        header.jumbotron {
+            background: var(--primary-background-color);
+            color: white;
+            padding: 30px;
+        }
+
+        header.jumbotron img {
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary-background-color);
+            color: white;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+
+        .btn{ 
+            font-weight: bold;
+        }
+
+        .banner{
+            display: grid; 
+            place-items: center;
+            height:fit-content;
+            background-attachment:scroll;  
+        }
+
+        .banner img{
+            max-width: 100%;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <!--Navagation Bar and Home-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#home">Joshua John Danes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <img src="images/moon.png" id="icon" style="block-size: 30px; margin-right: 50px;">
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Hi, I am Joshua John Danes</h1>
+        <img src="./images/profilepic.png" alt="Profile Picture" class="rounded-circle" width="150">
+        <p class="lead">I'm a Software Developer passionate about creating dynamic, user-friendly websites with a focus on performance and scalability.</p>
+
+    </header>
+
+
+
+    <!--About Me-->
+    <div class="container my-5">
+        <h2>About Me</h2>
+        <p>Hello! I am passionate and driven individual with a love for Software Developer. I thrive on creativity, innovation, and the constant pursuit of knowledge. With a background in Information Technology, I've developed a diverse skill set that allows me to tackle challenges with a unique perspective.</p>
+        <br>
+        <p>When I'm not working, I enjoy watching anime and playing sports with friends. These activities help me relax and stay motivated. I also really love travelling, going out from place to place, and I enjoy discovering new places and experiences.</p>
+        <br>
+        <p>I'm always open to new opportunities and connections. Whether you're interested in collaborating on a project, open on discussing anything, or just want to say hello, feel free to reach out. Let's create something amazing together!</p>
+        <br>
+        
+        <h3>Biography</h3>
+        <p>I am third-year Information Technology at York University, committed, relentless problem-solver and enthusiastic learner with a deep passion for programming and software development.</p>
+        <ul>
+            <li>Education: Bachelor of Arts in Informtion Technology</li>
+            <li>Skills:
+                <ul>
+                    <li style="font-weight: bold;">Programming Languages: </li>
+                        <ul>
+                            <li>Java (Advanced)</li>
+                            <li> JavaScript (Beginner)</li>
+                        </ul>
+                
+                    <li style="font-weight: bold;">Web Technologies: </li>
+                        <ul>
+                            <li>HTML (Intermediate)</li>
+                            <li>CSS (Intermediate) </li>
+                        </ul>
+                    <li style="font-weight: bold;">Database Management:</li>
+                        <ul>
+                            <li>SQL (Beginner)</li>
+                        </ul>
+                    
+                    <li style="font-weight: bold;">Software Development:</li>
+                        <ul>
+                            <li>Agile methodologies (Intermediate)</li>
+                        </ul>
+                    
+                </ul>
+            </li>
+            <li>Interests: Coding, Design, Music</li>
+        </ul>
+        <h3>Resume</h3>
+        <iframe src="Joshua John Danes - Resume.pdf" width="100%" height="600px"></iframe>
+        <br>
+        <a href="Joshua John Danes - Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+    </div>
+
+
+    <!--Projects-->
+    <div class="container my-5">
+        <h2 id="projects">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/tictactoe.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic Tac Toe</h5>
+                        <p class="card-text">I created this during my second year where we were task to make a game using JAVA.</p>
+                        <a href="https://github.com/Joshie04/TicTacToe" class="btn btn-secondary">Repository</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/animewebsite.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Anime Website</h5>
+                        <p class="card-text">This is project assigned during my first year in Information Technologies. The website is about my Top anime I love to watch during my spare time.</p>
+                        <a href="https://github.com/Joshie04/aninesite" class="btn btn-secondary">Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Blog-->
+    <div class="container my-5">
+        <h2 id="blog">Blog</h2>
+        <p ><a href="blog.html" class="btn btn-secondary" >My Blog</a></p>
+    </div>
+
+
+
+    <!--Contact Page-->
+    <div class="container my-5">
+        <h2 id="contact">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <br> 
+        <!--Social Media-->
+        <h3>Connect with me</h3>
+        <p>
+            <a href="https://www.linkedin.com/in/joshuajohn-danes/" class="btn btn-outline-dark" style="color: var(--media-color); border-color: var(--media-color);">LinkedIn</a>
+            <a href="https://github.com/Joshie04" class="btn btn-outline-dark" style="color: var(--media-color); border-color: var(--media-color);">GitHub</a>
+            <a href="https://www.facebook.com/" class="btn btn-outline-dark" style="color: var(--media-color); border-color: var(--media-color);">Facebook</a>
+            <a href="https://www.instagram.com/" class="btn btn-outline-dark" style="color: var(--media-color); border-color: var(--media-color);">Instagram</a>           
+    </div>
+
+
+    <!--Banner Image-->
+    <div class="banner"> 
+        <img src="images/banner.jpeg">
+    </div>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Joshua John Danes. All rights reserved.</p>
+    </footer>
+
+
+
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "images/sun.png";
+            }
+            else {
+                icon.src = "images/moon.png";
+            }
+        }
+    </script>
+
+</body>
+</html>
